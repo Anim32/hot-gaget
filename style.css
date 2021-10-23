@@ -1,7 +1,6 @@
-body{
-    background-color: rgb(250, 184, 217);
+.body{
+    background-color: rgb(255, 254, 254);
 }
-
 
 
 
@@ -9,25 +8,22 @@ body{
     border-radius: 5px;
 }
 
-
+.carousel-item{
+    padding: 20px 40px;
+}
 
 .row{
-    background-color: hotpink;
-    margin: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border: hotpink;
+    background-color: rgb(255, 218, 218);
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 5px;
+    border: rgb(255, 254, 255);
     border-radius: 5px;
 }
-
-.row {
-    background-image: url(hot-gadgets/bg-1.png);
-    background-attachment: centers;
-    background-repeat: no-repeat;
-    
-}
-h5 p {
-    text-align: left;
+.carousel-item active{
+    width: 100%;
+    height: 150px;
 }
 
 
